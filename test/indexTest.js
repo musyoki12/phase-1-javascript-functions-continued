@@ -9,7 +9,9 @@ describe("index.js", () => {
     })
 
     it("permits the default activity to be overriden", function() {
-      expect(saturdayFun("bathe my dog")).to.equal("This Saturday, I want to bathe my dog!")
+      expect(saturdayFun(
+        
+      )).to.equal("This Saturday, I want to bathe my dog!")
     })
   })
 
